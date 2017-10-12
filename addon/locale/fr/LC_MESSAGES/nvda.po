@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ApprentiClavier\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2017-10-11 23:47+0200\n"
+"PO-Revision-Date: 2017-10-11 23:48+0200\n"
+"Last-Translator: paulber19 <paulber19@laposte.net>\n"
+"Language-Team: paulber19 <paulber19@laposte.net>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ../../../appModules\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: addon\appModules\AC_config.py:151
+#, python-format
+msgid "Error parsing ApprentiClavier configuration file: %s"
+msgstr "Erreur de décodage du fichier de configuration du module: %s"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:18
+msgid "ApprentiClavier"
+msgstr "ApprentiClavier"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#: buildVars.py:21
+msgid ""
+"Provide voice assistance .\n"
+"This addon's version has been tested with NVDA 2017.3 and apprentiClavier "
+"1.0.9  on Windows 10 1703.\n"
+msgstr ""
+"Ce module apporte une assistance vocale pour ApprentiClavier, logiciel "
+"d'apprentissage du clavier .  \n"
+"La dernière version stable du module a été testée avec NVDA 2017.3 et "
+"ApprentiClavier 1.0.9 sous Windows 10 1703.\n"
+"\n"
+"Il n'ajoute aucun script.\n"

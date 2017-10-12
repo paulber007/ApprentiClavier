@@ -1,0 +1,58 @@
+AprentiClavier appmodule - user guide
+auteur: paulber19 
+URL: paulber19@laposte.net
+
+
+%!Target: html
+%!Encoding: UTF-8
+%!Options: --toc
+%!style:..\style.css
+% Remove the Table of Contents heading from the toc.
+%!PostProc(html): '^.*\<LI\>\<A HREF="#toc"\>.*\</A\>.*$' ''
+
+% h1 in html should really be the document title only.
+% Therefore, change h1 through h5 in the output to h2 through h6.
+%!PostProc(html): ^<H5>(.*)</H5>$ <H6>\1</H6>
+%!PostProc(html): ^<H4>(.*)</H4>$ <H5>\1</H5>
+%!PostProc(html): ^<H3>(.*)</H3>$ <H4>\1</H4>
+%!PostProc(html): ^<H2>(.*)</H2>$ <H3>\1</H3>
+%!PostProc(html): ^<H1>(.*)</H1>$ <H2>\1</H2>
+
+
+= Sommaire =[toc]
+%%toc
+
++ Introduction +
+++ Features ++
+This module tries to make it as accessible as possible the software ApprentiClavier in NVDA.
+
+This module adds no script.
+
+++ Compatibility ++
+Last stable version  has been tested with NVDA 2017.3 and apprentiClavier 1.0.9 on Windows 10 1703.
+
++ History +
+++ v2.3 (11 Octobre 2017) ++
+- set up on github,- test of compatibility with Windows 10 1703 and NVDA 2017.3,
+- remove previous apprentiClavier appModule addon.
+
+
+++ v2.2.1 (21 Juillet2016) ++
+- Bug fixe:   Y"y" no vocalized
+
+
+++ v2.2 29 Octobre 2014) ++
+- compatibility  with NVDA 2014.4
+
+
+++ v2.1 29 Octobre 2014) ++
+- compatibility with NVDA 2014.3
+
+
+++ v2.0 10 Juin 2013) ++
+- repackaging of source code
+
+
+++ v1.0 (2 janvier Novembre 2012) ++
+first release
+
